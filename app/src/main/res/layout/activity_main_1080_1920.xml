@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:text="392dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <androidx.percentlayout.widget.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:text="100%"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="100%"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </androidx.percentlayout.widget.PercentRelativeLayout>
+
+
+</LinearLayout>
